@@ -1,0 +1,13 @@
+{
+  "name": "hello-java-devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "customizations": {
+    "jetbrains": {
+      "backend": "IntelliJ"
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code"
+}
